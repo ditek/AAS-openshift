@@ -29,4 +29,4 @@ EXPOSE 8000
 EXPOSE 3000
 
 WORKDIR /root/AAS
-CMD ["bash", "-i", "run_aas_headless.sh", "127.0.0.1", "127.0.0.1:8000", "0.0.0.0:4841"]
+CMD ["bash", "-i", "run_aas_headless.sh", "127.0.0.1", "0.0.0.0:8000", "0.0.0.0:4841"]
